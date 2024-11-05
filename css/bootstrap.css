@@ -122,7 +122,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #FFFFFF;
   text-align: left;
   background-color: #fff;
 }
@@ -219,7 +219,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #FFFFFF;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -529,7 +529,6 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
 }
 
 .blockquote {

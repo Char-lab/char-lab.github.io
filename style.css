@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
+html {
+  scroll-behavior: smooth; /* 平滑滾動 */
+}
+
+section {
+  padding: 150px;
+  font-size: 30px;
+  text-align: center;
+}
+
+section:nth-of-type(2n + 1) {
+  background-color: #dce775;
+}
+
+.btn-back {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 50%;
+  background-color: #ff9800;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 70px;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px #b0bec5;
+}
+
+
+
 body {
     color: #383749;
     font-size: 16px;
@@ -15,15 +48,11 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-    color: #383749;
-}
-
-a:visited {
-    color: #757686;
+    color: #FFFFFF;
 }
 
 a:hover, a:focus, a:active {
-    color: #383749;
+    color: #FFFF00;
 }
 
 a:focus {
@@ -92,8 +121,7 @@ a:hover, a:active {
 
 .header-bar-email a {
     color: #383749;
-    text-decoration: none;
-}
+    }
 
 /*
 # Header Bar search
@@ -193,8 +221,7 @@ a:hover, a:active {
 
 .site-title a {
     color: #fff;
-    text-decoration: none;
-}
+    }
 
 .site-title a span {
     color: #19c880;
@@ -290,8 +317,6 @@ a:hover, a:active {
     display: block;
     padding: 12px 30px;
     color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 @media screen and (min-width: 992px) {
@@ -326,8 +351,7 @@ a:hover, a:active {
 
 .header-bar-cart a {
     color: #fff;
-    text-decoration: none;
-}
+    }
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -349,7 +373,6 @@ a:hover, a:active {
 .hero-content-wrap h4 {
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
     color: #19c880;
     letter-spacing: 0.1em;
 }
@@ -358,7 +381,6 @@ a:hover, a:active {
     margin-top: 12px;
     font-size: 60px;
     font-weight: 500;
-    text-transform: uppercase;
     color: #fff;
 }
 
@@ -384,10 +406,8 @@ a:hover, a:active {
     font-size: 13px;
     font-weight: bold;
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
-    text-decoration: none;
-}
+    }
 
 .hero-content-wrap .read-more a:hover {
     background: #19c880;
@@ -464,9 +484,7 @@ a:hover, a:active {
     font-size: 13px;
     font-weight: 700;
     color: #19c880;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+        letter-spacing: 0.1em;
 }
 
 .icon-box .read-more a .fa {
@@ -511,8 +529,7 @@ a:hover, a:active {
     font-size: 18px;
     line-height: 1;
     color: #383749;
-    text-decoration: none;
-}
+    }
 
 .courses-wrap .heading .courses-menu li a:hover,
 .courses-wrap .heading .courses-menu li.active a {
@@ -579,8 +596,7 @@ a:hover, a:active {
 
 .course-author a {
     color: #19c880;
-    text-decoration: none;
-}
+    }
 
 .course-date {
     position: relative;
@@ -647,11 +663,9 @@ a.btn {
     font-size: 13px;
     font-weight: bold;
     line-height: 1;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #383749;
-    text-decoration: none;
-}
+    }
 
 a.btn:hover {
     color: #fff;
@@ -763,7 +777,6 @@ a.btn:hover {
 .ezuca-stats .stats-count p {
     font-size: 16px;
     color: #757686;
-    text-transform: uppercase;
 }
 
 /*
@@ -866,7 +879,6 @@ a.btn:hover {
     position: relative;
     font-size: 16px;
     font-weight: 300;
-    text-transform: uppercase;
     color: #19c880;
 }
 
@@ -939,7 +951,6 @@ a.btn:hover {
     margin-top: 4px;
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
@@ -965,7 +976,6 @@ a.btn:hover {
 .latest-news-events .featured-event-content .event-duration {
     margin-top: 8px;
     font-size: 14px;
-    text-transform: uppercase;
     color: #c0c1cd;
 }
 
@@ -998,7 +1008,6 @@ a.btn:hover {
 
 .event-content .posted-date {
     font-size: 14px;
-    text-transform: uppercase;
     color: #c0c1cd;
 }
 
@@ -1020,8 +1029,7 @@ a.btn:hover {
 .event-content .post-author a {
     font-style: italic;
     color: #19c880;
-    text-decoration: none;
-}
+    }
 
 .event-content .post-comments {
     position: relative;
@@ -1032,8 +1040,7 @@ a.btn:hover {
 }
 
 .event-content .post-comments a {
-    text-decoration: none;
-    color: #757686;
+        color: #757686;
 }
 
 .event-content .post-comments::before {
@@ -1043,6 +1050,10 @@ a.btn:hover {
     left: 0;
     width: 10px;
     text-align: center;
+}
+
+.entry-content {
+    padding-left: 100px;
 }
 
 .event-content .entry-content {
@@ -1141,7 +1152,7 @@ a.btn:hover {
 # Clients Logos
 --------------------------------*/
 .clients-logo {
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 16px 0;
     background: #f7f7f7;
 }
@@ -1208,8 +1219,7 @@ a.btn:hover {
 
 .breadcrumbs li a {
     color: #383749;
-    text-decoration: none;
-}
+    }
 
 /*--------------------------------------------------------------
 # Pagination
@@ -1234,8 +1244,7 @@ a.btn:hover {
     height: 38px;
     border: 1px solid #ebebeb;
     color: #757686;
-    text-decoration: none;
-}
+    }
 
 .pagination ul li a .fa {
     color: #383749;
@@ -1346,8 +1355,7 @@ a.btn:hover {
 }
 
 .cat-links ul li a {
-    text-decoration: none;
-}
+    }
 
 /*
 # Latest Courses
@@ -1383,8 +1391,7 @@ a.btn:hover {
 
 .latest-courses .content-wrap h3 a {
     color: #383749;
-    text-decoration: none;
-}
+    }
 
 .latest-courses .content-wrap .course-cost {
     margin-top: 10px;
@@ -1432,10 +1439,8 @@ a.btn:hover {
     border: 1px solid #ebebeb;
     font-size: 12px;
     line-height: 1;
-    text-transform: uppercase;
     color: #595959;
-    text-decoration: none;
-}
+    }
 
 .popular-tags li a:hover {
     color: #383749;
@@ -1452,9 +1457,6 @@ a.btn:hover {
     height: 530px;
 }
 
-.single-courses-page .page-header-overlay h1 {
-    text-transform: uppercase;
-}
 
 .single-courses-page .featured-image {
     position: relative;
@@ -1735,7 +1737,6 @@ ul.black-doted {
 .instructors-details .course-teacher a {
     color: #19c880;
     font-weight: 600;
-    text-transform: uppercase;
     text-decoration: navajowhite;
 }
 
@@ -1825,7 +1826,6 @@ ul.black-doted {
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 500;
-    text-transform: uppercase;
     color: #757686;
     text-align: center;
 }
@@ -1987,8 +1987,7 @@ ul.black-doted {
     height: 48px;
     border: 1px solid #ebebeb;
     border-radius: 50%;
-    text-decoration: none;
-    transition: all .35s;
+        transition: all .35s;
 }
 
 .team-member ul li .fa {
@@ -2047,7 +2046,6 @@ ul.black-doted {
     margin-top: 4px;
     font-size: 16px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
@@ -2065,8 +2063,7 @@ ul.black-doted {
 .blog-post-content-wrap .post-author a {
     font-style: italic;
     color: #19c880;
-    text-decoration: none;
-}
+    }
 
 .blog-post-content-wrap .post-comments {
     position: relative;
@@ -2076,8 +2073,7 @@ ul.black-doted {
 }
 
 .blog-post-content-wrap .post-comments a {
-    text-decoration: none;
-    color: #757686;
+        color: #757686;
 }
 
 .blog-post-content-wrap .post-comments::before {
@@ -2088,6 +2084,7 @@ ul.black-doted {
     width: 10px;
     text-align: center;
 }
+
 
 .blog-post-content-wrap .entry-content {
     margin-top: 12px;
@@ -2109,8 +2106,7 @@ ul.black-doted {
 .single-blog-post .page-header .post-author a {
     font-style: italic;
     color: #19c880;
-    text-decoration: none;
-}
+    }
 
 .single-blog-post .page-header .post-comments {
     position: relative;
@@ -2129,8 +2125,7 @@ ul.black-doted {
 }
 
 .single-blog-post .page-header .post-comments a {
-    text-decoration: none;
-    color: #fff;
+        color: #fff;
 }
 
 .single-blog-post .featured-image {
@@ -2165,7 +2160,6 @@ ul.black-doted {
     margin-top: 4px;
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
@@ -2228,7 +2222,6 @@ ul.black-doted {
     font-size: 12px;
     line-height: 1;
     color: #595959;
-    text-transform: uppercase;
     background: #f3f3f3;
 }
 
@@ -2311,7 +2304,6 @@ ul.author-social-profile li:hover .fa {
 .author-details h3 {
     font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
     color: #19c880;
 }
 
@@ -2386,7 +2378,6 @@ ul.author-social-profile li:hover .fa {
 
 .post-comments-wrap .comment-author .comment-meta a {
     font-size: 12px;
-    text-transform: uppercase;
     letter-spacing: 0.12em;
     color: #19c880;
 }
@@ -2410,9 +2401,7 @@ ul.author-social-profile li:hover .fa {
     font-weight: 500;
     line-height: 1;
     color: #383749;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
+        letter-spacing: 1px;
 }
 
 .post-comments-wrap .reply a:hover {
@@ -2489,9 +2478,7 @@ ul.author-social-profile li:hover .fa {
     font-weight: 600;
     line-height: 1;
     color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.1rem;
+        letter-spacing: 0.1rem;
     outline: none;
     cursor: pointer;
     background: #19c880;
@@ -2561,9 +2548,7 @@ ul.author-social-profile li:hover .fa {
     font-weight: 600;
     line-height: 1;
     color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.1rem;
+        letter-spacing: 0.1rem;
     outline: none;
     cursor: pointer;
     background: #19c880;
@@ -2643,8 +2628,7 @@ p.footer-copyright {
 
 .footer-widgets ul li a {
     color: #757686;
-    text-decoration: none;
-}
+    }
 
 .footer-widgets ul li a:hover {
     color: #34d986;
@@ -2710,7 +2694,6 @@ p.footer-copyright {
 
 .footer-bar-nav ul li a {
     color: #757686;
-    text-decoration: none;
 }
 
 .footer-bar-nav ul li a:hover {
