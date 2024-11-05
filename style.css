@@ -64,6 +64,9 @@ a:hover, a:active {
     list-style: none;
 }
 
+li {
+    padding-left: 20px;
+}
 /*--------------------------------------------------------------
 # Helper Utilities
 --------------------------------------------------------------*/
@@ -2611,7 +2614,7 @@ p.footer-copyright {
 }
 
 .footer-widgets h2 {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 20px;
     color: #383749;
 }
