@@ -1,19 +1,23 @@
 [Open Files]
 Active File Display Mode=1
-Active File Index=0
+Active File Index=3
 Open File Line0=10232
 Open File Line1=1226
 Open File Line2=20327
-Open File Pos0=11464
+Open File Line3=0
+Open File Pos0=12532
 Open File Pos1=2266
 Open File Pos2=20676
-Open File Window Pos0=0,1,-1,-1,-1,-1,3,26,1344,581
-Open File Window Pos1=0,1,-1,-1,-1,-1,3,26,1344,581
-Open File Window Pos2=0,1,-1,-1,-1,-1,3,26,1344,581
+Open File Pos3=0
+Open File Window Pos0=0,1,-1,-1,-1,-1,3,26,959,498
+Open File Window Pos1=0,1,-1,-1,-1,-1,3,26,959,498
+Open File Window Pos2=0,1,-1,-1,-1,-1,3,26,959,498
+Open File Window Pos3=0,1,-1,-1,-1,-1,3,26,959,498
 Open File0=D:\Work\Github\HomePage\index.html
 Open File1=D:\Work\Github\HomePage\style.css
 Open File2=D:\Work\Github\HomePage\css\bootstrap.css
-Open File3=
+Open File3=D:\Work\Github\HomePage\README.md
+Open File4=
 Remember Files=1
 
 [Project Information]
@@ -22,3 +26,4 @@ Remember Files=1
 
 [Folders]
 	.\=1
+
