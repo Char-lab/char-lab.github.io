@@ -1,0 +1,25 @@
+[Project ID]
+Signature=UE Proj: v.1
+Unicode=2
+[Project Information]
+	Use Relative Directory=1
+	Relative to Project File=1
+	Include Sub Directories=1
+	Project Tagfile=
+	Project Wordfile=
+	Project TpFile=
+	Filter=
+	Create Tagfile=0
+	Project TagfileU=
+	Project WordfileU=
+	Project TpFileU=
+	FilterU=
+[Files]
+	0=.\
+[FilesU]
+0=.+AFw-MDV+AFw-
+1=.+AFw-StdDrv+AFw-
+[GroupU]
+0=YellowBox
+[FilesU - YellowBox]
+0=..+AFw-..+AFwAXw-old+AFxcD57DdtIAXA-Goldan+AFw-service+AFw-mango5+AFw-mango5+AF8-host.c
