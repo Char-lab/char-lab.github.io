@@ -116,7 +116,21 @@
                     </div><!-- .logo-wrap -->
                     
                     <div class="logo-wrap">
-                    <img src="image/5a.png" style="width:200px;height:200px" alt="">
+                    <img src="" 
+                  	  <style>
+                           .image-container {
+          								  width: 200px; /* 設定圖片容器的寬度 */
+      								      height: 200px; /* 設定圖片容器的高度 */
+       								     background-image: url('image/5a.png'); /* 設定初始的縮略圖 */
+       								     background-size: cover;
+        								    background-position: center;
+          								  transition: background-image 0.3s ease; /* 添加過渡效果 */
+      									  }
+		
+      		 								 .image-container:hover {
+       								     background-image: url('image/5a.png'); /* 當滑鼠移到圖片上時，顯示原圖 */
+    										    }
+   											 </style>
                     </div><!-- .logo-wrap -->
                     
                     <div class="logo-wrap">
